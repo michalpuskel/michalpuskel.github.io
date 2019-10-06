@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-10-07T00:35:35+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Programovanie v pythone</title><subtitle>Príprava hodín na  pedagogickú prax  Doplnkového Pedagogického Štúdia Informatiky  FMFI UK.</subtitle><entry><title type="html">Funkcie</title><link href="http://localhost:4000/ulohy/2019/10/02/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Funkcie" /><published>2019-10-02T00:00:00+02:00</published><updated>2019-10-02T00:00:00+02:00</updated><id>http://localhost:4000/ulohy/2019/10/02/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/ulohy/2019/10/02/welcome-to-jekyll.html">&lt;ol&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://michalpuskel.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://michalpuskel.github.io//" rel="alternate" type="text/html" /><updated>2019-10-07T00:41:57+02:00</updated><id>https://michalpuskel.github.io//feed.xml</id><title type="html">Programovanie v pythone</title><subtitle>Príprava hodín na  pedagogickú prax  Doplnkového Pedagogického Štúdia Informatiky  FMFI UK.</subtitle><entry><title type="html">Funkcie</title><link href="https://michalpuskel.github.io//ulohy/2019/10/02/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Funkcie" /><published>2019-10-02T00:00:00+02:00</published><updated>2019-10-02T00:00:00+02:00</updated><id>https://michalpuskel.github.io//ulohy/2019/10/02/welcome-to-jekyll</id><content type="html" xml:base="https://michalpuskel.github.io//ulohy/2019/10/02/welcome-to-jekyll.html">&lt;ol&gt;
   &lt;li&gt;
     &lt;p&gt;Nakresli obrázok &lt;em&gt;mesiac a more&lt;/em&gt;:
-&lt;img src=&quot;http://localhost:4000/assets/images/funkcie/01/1.PNG&quot; alt=&quot;úloha 1&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;https://michalpuskel.github.io//assets/images/funkcie/01/1.png&quot; alt=&quot;úloha 1&quot; /&gt;&lt;/p&gt;
 
     &lt;ul&gt;
       &lt;li&gt;
@@ -21,11 +21,11 @@
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Do obrázku dokresli &lt;em&gt;vlajku&lt;/em&gt;:
-&lt;img src=&quot;http://localhost:4000/assets/images/funkcie/01/2.png&quot; alt=&quot;úloha 2&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;https://michalpuskel.github.io//assets/images/funkcie/01/2.png&quot; alt=&quot;úloha 2&quot; /&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Do obrázku dokresli &lt;em&gt;ďalšiu vlajku&lt;/em&gt;:
-&lt;img src=&quot;http://localhost:4000/assets/images/funkcie/01/3.png&quot; alt=&quot;úloha 3&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;https://michalpuskel.github.io//assets/images/funkcie/01/3.png&quot; alt=&quot;úloha 3&quot; /&gt;&lt;/p&gt;
 
     &lt;ul&gt;
       &lt;li&gt;Pravdepodobne je rozumné kreslenie vlajky extrahovať do funkcie:&lt;/li&gt;
@@ -37,7 +37,7 @@
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Na zelenú vlajku dokresli &lt;em&gt;červený mesiac&lt;/em&gt;:
-&lt;img src=&quot;http://localhost:4000/assets/images/funkcie/01/4.png&quot; alt=&quot;úloha 4&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;https://michalpuskel.github.io//assets/images/funkcie/01/4.png&quot; alt=&quot;úloha 4&quot; /&gt;&lt;/p&gt;
 
     &lt;ul&gt;
       &lt;li&gt;
@@ -57,7 +57,7 @@
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Na červenú vlajku dokresli &lt;em&gt;logo - dvojitý mesiac&lt;/em&gt;:
-&lt;img src=&quot;http://localhost:4000/assets/images/funkcie/01/5.png&quot; alt=&quot;úloha 5&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;https://michalpuskel.github.io//assets/images/funkcie/01/5.png&quot; alt=&quot;úloha 5&quot; /&gt;&lt;/p&gt;
 
     &lt;ul&gt;
       &lt;li&gt;
@@ -86,11 +86,11 @@
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Do obrázku dokresli &lt;em&gt;loďku&lt;/em&gt;:
-&lt;img src=&quot;http://localhost:4000/assets/images/funkcie/01/6.png&quot; alt=&quot;úloha 6&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;https://michalpuskel.github.io//assets/images/funkcie/01/6.png&quot; alt=&quot;úloha 6&quot; /&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Nakresli &lt;em&gt;námornú flotilu&lt;/em&gt;:
-&lt;img src=&quot;http://localhost:4000/assets/images/funkcie/01/7.png&quot; alt=&quot;úloha 7&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;https://michalpuskel.github.io//assets/images/funkcie/01/7.png&quot; alt=&quot;úloha 7&quot; /&gt;&lt;/p&gt;
 
     &lt;ul&gt;
       &lt;li&gt;Kreslenie loďky extrahuj do funkcie:&lt;/li&gt;
@@ -111,7 +111,7 @@
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Na loďky dokresli &lt;em&gt;logo - dvojitý mesiac&lt;/em&gt;:
-&lt;img src=&quot;http://localhost:4000/assets/images/funkcie/01/8.png&quot; alt=&quot;úloha 8&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;https://michalpuskel.github.io//assets/images/funkcie/01/8.png&quot; alt=&quot;úloha 8&quot; /&gt;&lt;/p&gt;
 
     &lt;ul&gt;
       &lt;li&gt;Uprav funkciu &lt;code class=&quot;highlighter-rouge&quot;&gt;lodka&lt;/code&gt;, v jej tele zavolaj funkciu &lt;code class=&quot;highlighter-rouge&quot;&gt;logo&lt;/code&gt; s vhodnými parametrami:&lt;/li&gt;
@@ -124,7 +124,7 @@
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Nakresli obrázok &lt;em&gt;n-uholníkové kvety&lt;/em&gt;:
-&lt;img src=&quot;http://localhost:4000/assets/images/funkcie/02/1.png&quot; alt=&quot;úloha 9&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;https://michalpuskel.github.io//assets/images/funkcie/02/1.png&quot; alt=&quot;úloha 9&quot; /&gt;&lt;/p&gt;
 
     &lt;ul&gt;
       &lt;li&gt;Zadefinuj funkciu &lt;code class=&quot;highlighter-rouge&quot;&gt;n_kvet&lt;/code&gt; so vstupnými parametrami:&lt;/li&gt;
@@ -147,7 +147,7 @@
 &lt;ul&gt;
   &lt;li&gt;
     &lt;p&gt;Nakresli obrázok &lt;em&gt;les&lt;/em&gt;:
-&lt;img src=&quot;http://localhost:4000/assets/images/funkcie/du/1.png&quot; alt=&quot;domáca úloha&quot; /&gt;
+&lt;img src=&quot;https://michalpuskel.github.io//assets/images/funkcie/du/1.png&quot; alt=&quot;domáca úloha&quot; /&gt;
 V lese sa nachádza:&lt;/p&gt;
 
     &lt;ul&gt;
