@@ -282,6 +282,16 @@ table td { border: 1px solid #e8e8e8; }
 
 .highlight .il { color: #099; }
 
+ol > li { margin-top: 50px; }
+
+img { border: 1px solid gray; margin: 25px auto; }
+
+pre { margin: 15px auto; }
+
+h3 { margin-top: 40px; margin-bottom: 30px; }
+
+li > h3 { margin-top: 0; margin-bottom: 15px; }
+
 .highlight .hll { background-color: #ffffcc; }
 
 .highlight .c { color: #808080; }

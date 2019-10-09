@@ -1,4 +1,35 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://michalpuskel.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://michalpuskel.github.io//" rel="alternate" type="text/html" /><updated>2019-10-07T01:07:50+02:00</updated><id>https://michalpuskel.github.io//feed.xml</id><title type="html">Programovanie v pythone</title><subtitle>Príprava hodín na  pedagogickú prax  Doplnkového Pedagogického Štúdia Informatiky  FMFI UK.</subtitle><entry><title type="html">Funkcie</title><link href="https://michalpuskel.github.io//ulohy/2019/10/02/funkcie.html" rel="alternate" type="text/html" title="Funkcie" /><published>2019-10-02T00:00:00+02:00</published><updated>2019-10-02T00:00:00+02:00</updated><id>https://michalpuskel.github.io//ulohy/2019/10/02/funkcie</id><content type="html" xml:base="https://michalpuskel.github.io//ulohy/2019/10/02/funkcie.html">&lt;ol&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://michalpuskel.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://michalpuskel.github.io//" rel="alternate" type="text/html" /><updated>2019-10-09T09:40:07+02:00</updated><id>https://michalpuskel.github.io//feed.xml</id><title type="html">Programovanie v pythone</title><subtitle>Príprava hodín na  pedagogickú prax  Doplnkového Pedagogického Štúdia Informatiky  FMFI UK.</subtitle><entry><title type="html">Animácie</title><link href="https://michalpuskel.github.io//ulohy/2019/10/09/animacie.html" rel="alternate" type="text/html" title="Animácie" /><published>2019-10-09T00:00:00+02:00</published><updated>2019-10-09T00:00:00+02:00</updated><id>https://michalpuskel.github.io//ulohy/2019/10/09/animacie</id><content type="html" xml:base="https://michalpuskel.github.io//ulohy/2019/10/09/animacie.html">&lt;h3 id=&quot;povinné-úlohy&quot;&gt;Povinné úlohy&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Z obrázka z minulej hodiny vyrob animáciu &lt;em&gt;stúpajúci mesiac&lt;/em&gt;:
+&lt;img src=&quot;https://michalpuskel.github.io//assets/videos/animacie/mesiac.gif&quot; alt=&quot;úloha 1&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Do animácie pridaj &lt;em&gt;pohyblivé lodičky&lt;/em&gt;:&lt;/p&gt;
+
+    &lt;!-- ![úloha 2](https://michalpuskel.github.io//assets/videos/animacie/mesiac.gif) --&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;Nech sa každá loďka hýbe inou rýchlosťou (náhodnou)&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Animácia trvá, až kým všetky loďky neodplávajú z plochy&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;dobrovoľné-úlohy&quot;&gt;Dobrovoľné úlohy&lt;/h3&gt;
+
+&lt;p&gt;TBA&lt;/p&gt;
+
+&lt;h3 id=&quot;domáca-úloha&quot;&gt;Domáca úloha&lt;/h3&gt;
+
+&lt;p&gt;TBA&lt;/p&gt;</content><author><name></name></author><summary type="html">Povinné úlohy</summary></entry><entry><title type="html">Funkcie</title><link href="https://michalpuskel.github.io//ulohy/2019/10/02/funkcie.html" rel="alternate" type="text/html" title="Funkcie" /><published>2019-10-02T00:00:00+02:00</published><updated>2019-10-02T00:00:00+02:00</updated><id>https://michalpuskel.github.io//ulohy/2019/10/02/funkcie</id><content type="html" xml:base="https://michalpuskel.github.io//ulohy/2019/10/02/funkcie.html">&lt;h3 id=&quot;povinné-úlohy&quot;&gt;Povinné úlohy&lt;/h3&gt;
+
+&lt;ol&gt;
   &lt;li&gt;
     &lt;p&gt;Nakresli obrázok &lt;em&gt;mesiac a more&lt;/em&gt;:
 &lt;img src=&quot;https://michalpuskel.github.io//assets/images/funkcie/01/1.png&quot; alt=&quot;úloha 1&quot; /&gt;&lt;/p&gt;
@@ -122,6 +153,11 @@
     &lt;span class=&quot;n&quot;&gt;logo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
   &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;dobrovoľné-úlohy&quot;&gt;Dobrovoľné úlohy&lt;/h3&gt;
+
+&lt;ol&gt;
   &lt;li&gt;
     &lt;p&gt;Nakresli obrázok &lt;em&gt;n-uholníkové kvety&lt;/em&gt;:
 &lt;img src=&quot;https://michalpuskel.github.io//assets/images/funkcie/02/1.png&quot; alt=&quot;úloha 9&quot; /&gt;&lt;/p&gt;
@@ -143,6 +179,8 @@
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
+
+&lt;h3 id=&quot;domáca-úloha&quot;&gt;Domáca úloha&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -181,4 +219,4 @@ V lese sa nachádza:&lt;/p&gt;
       &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Nakresli obrázok mesiac a more:</summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Povinné úlohy</summary></entry></feed>
