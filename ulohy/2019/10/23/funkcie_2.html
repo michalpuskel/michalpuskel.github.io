@@ -47,7 +47,69 @@
   <div class="post-content e-content" itemprop="articleBody">
     <h3 id="povinné-úlohy">Povinné úlohy</h3>
 
-<p>TBA</p>
+<ol>
+  <li>
+    <p>Nakresli obrázok <em>stvorce</em>:
+<img src="https://michalpuskel.github.io//assets/images/funkcie2/stvorce10.png" alt="úloha 1" /></p>
+
+    <ul>
+      <li>Rozmery plochy si ulož do premenných <code class="highlighter-rouge">X_MAX</code>, <code class="highlighter-rouge">Y_MAX</code>, budeš ich potrebovať pri výpočtoch:</li>
+    </ul>
+
+    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">tkinter</span>
+<span class="kn">import</span> <span class="nn">random</span>
+
+<span class="n">X_MAX</span><span class="p">,</span> <span class="n">Y_MAX</span> <span class="o">=</span> <span class="mi">800</span><span class="p">,</span> <span class="mi">600</span>
+
+<span class="n">canvas</span> <span class="o">=</span> <span class="n">tkinter</span><span class="o">.</span><span class="n">Canvas</span><span class="p">(</span><span class="n">width</span><span class="o">=</span><span class="n">X_MAX</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="n">Y_MAX</span><span class="p">)</span>
+<span class="n">canvas</span><span class="o">.</span><span class="n">pack</span><span class="p">()</span>
+
+<span class="o">...</span>
+</code></pre></div>    </div>
+
+    <ul>
+      <li>
+        <p>Na vykreslenie štvorca si zadefinuj <strong>funkciu</strong>,
+vstupné parametre,
+prípadne ich prednastavené (default) hodnoty zvoľ podľa vlastného uváženia,
+avšak vyžaduje sa:</p>
+
+        <ul>
+          <li>kreslenie štvorca zo zadaných súradníc <code class="highlighter-rouge">x</code> a <code class="highlighter-rouge">y</code> jeho <strong>stredu</strong></li>
+          <li>nastaviteľnosť (parametrizovateľnosť) <code class="highlighter-rouge">počtu</code> sústredných štvorcov</li>
+          <li>nastaviteľnosť <code class="highlighter-rouge">veľkosti</code> najväčšieho štvorca v sade</li>
+          <li>nastaviteľnosť <code class="highlighter-rouge">medzery</code> medzi štvorcami</li>
+        </ul>
+      </li>
+    </ul>
+
+    <p> </p>
+
+    <ul>
+      <li>
+        <p>nakresli 10 sád takýchto sústredných štvorcov</p>
+      </li>
+      <li>
+        <p>veľkosť najväčšej strany nech je náhodné číslo od 150 do 300 (vrátane)</p>
+      </li>
+      <li>
+        <p>počet štvorcov v sade nech je náhodné číslo od 5 do 10 (vrátane)</p>
+      </li>
+      <li>
+        <p>medzera podľa uváženia, ľubovoľná</p>
+      </li>
+      <li>
+        <p>štvorce sa kreslia na úplne náhodných pozíciach na celej ploche,
+tak aby nevyleteli za okraje
+(treba nejak využiť premenné <code class="highlighter-rouge">X_MAX</code>, <code class="highlighter-rouge">Y_MAX</code> a správne vyrátať náhodné <code class="highlighter-rouge">x</code>, <code class="highlighter-rouge">y</code>)</p>
+      </li>
+      <li>
+        <p>funkčnosť nevylietavania za okraj si over napr. tak, že nakreslíš 100 sád štvorcov:
+<img src="https://michalpuskel.github.io//assets/images/funkcie2/stvorce100.png" alt="úloha 1" /></p>
+      </li>
+    </ul>
+  </li>
+</ol>
 
 <h3 id="dobrovoľné-úlohy">Dobrovoľné úlohy</h3>
 

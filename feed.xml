@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://michalpuskel.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://michalpuskel.github.io//" rel="alternate" type="text/html" /><updated>2019-10-09T20:41:35+02:00</updated><id>https://michalpuskel.github.io//feed.xml</id><title type="html">Programovanie v pythone</title><subtitle>Príprava hodín na  pedagogickú prax  Doplnkového Pedagogického Štúdia Informatiky  FMFI UK.</subtitle><entry><title type="html">Animácie</title><link href="https://michalpuskel.github.io//ulohy/2019/10/30/animacie.html" rel="alternate" type="text/html" title="Animácie" /><published>2019-10-30T09:50:00+01:00</published><updated>2019-10-30T09:50:00+01:00</updated><id>https://michalpuskel.github.io//ulohy/2019/10/30/animacie</id><content type="html" xml:base="https://michalpuskel.github.io//ulohy/2019/10/30/animacie.html">&lt;h3 id=&quot;povinné-úlohy&quot;&gt;Povinné úlohy&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://michalpuskel.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://michalpuskel.github.io//" rel="alternate" type="text/html" /><updated>2019-10-20T22:01:30+02:00</updated><id>https://michalpuskel.github.io//feed.xml</id><title type="html">Programovanie v pythone</title><subtitle>Príprava hodín na  pedagogickú prax  Doplnkového Pedagogického Štúdia Informatiky  FMFI UK.</subtitle><entry><title type="html">Animácie</title><link href="https://michalpuskel.github.io//ulohy/2019/10/30/animacie.html" rel="alternate" type="text/html" title="Animácie" /><published>2019-10-30T09:50:00+01:00</published><updated>2019-10-30T09:50:00+01:00</updated><id>https://michalpuskel.github.io//ulohy/2019/10/30/animacie</id><content type="html" xml:base="https://michalpuskel.github.io//ulohy/2019/10/30/animacie.html">&lt;h3 id=&quot;povinné-úlohy&quot;&gt;Povinné úlohy&lt;/h3&gt;
 
 &lt;ol&gt;
   &lt;li&gt;
@@ -45,13 +45,92 @@
       &lt;li&gt;Každý kvet má inú uhlovú rýchlosť&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Vyrob aspoň 1 variáciu &lt;em&gt;roller coaster&lt;/em&gt; animácie:
+&lt;img src=&quot;https://michalpuskel.github.io//assets/videos/animacie/roller-coaster_1.gif&quot; alt=&quot;úloha 5a&quot; /&gt;
+&lt;img src=&quot;https://michalpuskel.github.io//assets/videos/animacie/roller-coaster_2.gif&quot; alt=&quot;úloha 5b&quot; /&gt;
+&lt;img src=&quot;https://michalpuskel.github.io//assets/videos/animacie/roller-coaster_3.gif&quot; alt=&quot;úloha 5c&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h3 id=&quot;domáca-úloha&quot;&gt;Domáca úloha&lt;/h3&gt;
 
-&lt;p&gt;TBA&lt;/p&gt;</content><author><name></name></author><summary type="html">Povinné úlohy</summary></entry><entry><title type="html">Funkcie 2</title><link href="https://michalpuskel.github.io//ulohy/2019/10/23/funkcie_2.html" rel="alternate" type="text/html" title="Funkcie 2" /><published>2019-10-23T10:50:00+02:00</published><updated>2019-10-23T10:50:00+02:00</updated><id>https://michalpuskel.github.io//ulohy/2019/10/23/funkcie_2</id><content type="html" xml:base="https://michalpuskel.github.io//ulohy/2019/10/23/funkcie_2.html">&lt;h3 id=&quot;povinné-úlohy&quot;&gt;Povinné úlohy&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Vytvor animáciu &lt;em&gt;lamerský dážď&lt;/em&gt;:
+&lt;img src=&quot;https://michalpuskel.github.io//assets/videos/animacie/dazd.gif&quot; alt=&quot;úloha 5a&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;TBA&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;(bonusová úloha): iba sa zamysli, neprogramuj - dokážeš vyrobiť poriadny dážď / sneh
+napr. 1000 kvapiek / vločiek sa niekde v ploche náhodne narodí
+a potom bude padať gravitáciou dole + kvôli vetru do strany?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Povinné úlohy</summary></entry><entry><title type="html">Funkcie 2</title><link href="https://michalpuskel.github.io//ulohy/2019/10/23/funkcie_2.html" rel="alternate" type="text/html" title="Funkcie 2" /><published>2019-10-23T10:50:00+02:00</published><updated>2019-10-23T10:50:00+02:00</updated><id>https://michalpuskel.github.io//ulohy/2019/10/23/funkcie_2</id><content type="html" xml:base="https://michalpuskel.github.io//ulohy/2019/10/23/funkcie_2.html">&lt;h3 id=&quot;povinné-úlohy&quot;&gt;Povinné úlohy&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Nakresli obrázok &lt;em&gt;stvorce&lt;/em&gt;:
+&lt;img src=&quot;https://michalpuskel.github.io//assets/images/funkcie2/stvorce10.png&quot; alt=&quot;úloha 1&quot; /&gt;&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Rozmery plochy si ulož do premenných &lt;code class=&quot;highlighter-rouge&quot;&gt;X_MAX&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;Y_MAX&lt;/code&gt;, budeš ich potrebovať pri výpočtoch:&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;tkinter&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;random&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;X_MAX&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Y_MAX&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;800&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;600&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;canvas&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tkinter&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Canvas&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;X_MAX&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Y_MAX&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;canvas&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pack&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+
+&lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;Na vykreslenie štvorca si zadefinuj &lt;strong&gt;funkciu&lt;/strong&gt;,
+vstupné parametre,
+prípadne ich prednastavené (default) hodnoty zvoľ podľa vlastného uváženia,
+avšak vyžaduje sa:&lt;/p&gt;
+
+        &lt;ul&gt;
+          &lt;li&gt;kreslenie štvorca zo zadaných súradníc &lt;code class=&quot;highlighter-rouge&quot;&gt;x&lt;/code&gt; a &lt;code class=&quot;highlighter-rouge&quot;&gt;y&lt;/code&gt; jeho &lt;strong&gt;stredu&lt;/strong&gt;&lt;/li&gt;
+          &lt;li&gt;nastaviteľnosť (parametrizovateľnosť) &lt;code class=&quot;highlighter-rouge&quot;&gt;počtu&lt;/code&gt; sústredných štvorcov&lt;/li&gt;
+          &lt;li&gt;nastaviteľnosť &lt;code class=&quot;highlighter-rouge&quot;&gt;veľkosti&lt;/code&gt; najväčšieho štvorca v sade&lt;/li&gt;
+          &lt;li&gt;nastaviteľnosť &lt;code class=&quot;highlighter-rouge&quot;&gt;medzery&lt;/code&gt; medzi štvorcami&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;p&gt; &lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;nakresli 10 sád takýchto sústredných štvorcov&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;veľkosť najväčšej strany nech je náhodné číslo od 150 do 300 (vrátane)&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;počet štvorcov v sade nech je náhodné číslo od 5 do 10 (vrátane)&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;medzera podľa uváženia, ľubovoľná&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;štvorce sa kreslia na úplne náhodných pozíciach na celej ploche,
+tak aby nevyleteli za okraje
+(treba nejak využiť premenné &lt;code class=&quot;highlighter-rouge&quot;&gt;X_MAX&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;Y_MAX&lt;/code&gt; a správne vyrátať náhodné &lt;code class=&quot;highlighter-rouge&quot;&gt;x&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;y&lt;/code&gt;)&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;funkčnosť nevylietavania za okraj si over napr. tak, že nakreslíš 100 sád štvorcov:
+&lt;img src=&quot;https://michalpuskel.github.io//assets/images/funkcie2/stvorce100.png&quot; alt=&quot;úloha 1&quot; /&gt;&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;h3 id=&quot;dobrovoľné-úlohy&quot;&gt;Dobrovoľné úlohy&lt;/h3&gt;
 
