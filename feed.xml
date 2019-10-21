@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://michalpuskel.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://michalpuskel.github.io//" rel="alternate" type="text/html" /><updated>2019-10-20T22:05:04+02:00</updated><id>https://michalpuskel.github.io//feed.xml</id><title type="html">Programovanie v pythone</title><subtitle>Príprava hodín na  pedagogickú prax  Doplnkového Pedagogického Štúdia Informatiky  FMFI UK.</subtitle><entry><title type="html">Animácie</title><link href="https://michalpuskel.github.io//ulohy/2019/10/30/animacie.html" rel="alternate" type="text/html" title="Animácie" /><published>2019-10-30T09:50:00+01:00</published><updated>2019-10-30T09:50:00+01:00</updated><id>https://michalpuskel.github.io//ulohy/2019/10/30/animacie</id><content type="html" xml:base="https://michalpuskel.github.io//ulohy/2019/10/30/animacie.html">&lt;h3 id=&quot;povinné-úlohy&quot;&gt;Povinné úlohy&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://michalpuskel.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://michalpuskel.github.io//" rel="alternate" type="text/html" /><updated>2019-10-21T20:58:19+02:00</updated><id>https://michalpuskel.github.io//feed.xml</id><title type="html">Programovanie v pythone</title><subtitle>Príprava hodín na  pedagogickú prax  Doplnkového Pedagogického Štúdia Informatiky  FMFI UK.</subtitle><entry><title type="html">Animácie</title><link href="https://michalpuskel.github.io//ulohy/2019/10/30/animacie.html" rel="alternate" type="text/html" title="Animácie" /><published>2019-10-30T09:50:00+01:00</published><updated>2019-10-30T09:50:00+01:00</updated><id>https://michalpuskel.github.io//ulohy/2019/10/30/animacie</id><content type="html" xml:base="https://michalpuskel.github.io//ulohy/2019/10/30/animacie.html">&lt;h3 id=&quot;povinné-úlohy&quot;&gt;Povinné úlohy&lt;/h3&gt;
 
 &lt;ol&gt;
   &lt;li&gt;
@@ -136,9 +136,20 @@ tak aby nevyleteli za okraje
 
 &lt;p&gt;TBA&lt;/p&gt;
 
+&lt;p&gt;TODO ovocny sad&lt;/p&gt;
+
 &lt;h3 id=&quot;domáca-úloha&quot;&gt;Domáca úloha&lt;/h3&gt;
 
-&lt;p&gt;TBA&lt;/p&gt;</content><author><name></name></author><summary type="html">Povinné úlohy</summary></entry><entry><title type="html">Funkcie</title><link href="https://michalpuskel.github.io//ulohy/2019/10/02/funkcie.html" rel="alternate" type="text/html" title="Funkcie" /><published>2019-10-02T10:50:00+02:00</published><updated>2019-10-02T10:50:00+02:00</updated><id>https://michalpuskel.github.io//ulohy/2019/10/02/funkcie</id><content type="html" xml:base="https://michalpuskel.github.io//ulohy/2019/10/02/funkcie.html">&lt;h3 id=&quot;povinné-úlohy&quot;&gt;Povinné úlohy&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Nakresli obrázok &lt;em&gt;vlaky&lt;/em&gt;:
+&lt;img src=&quot;https://michalpuskel.github.io//assets/images/funkcie2/stvorce100.png&quot; alt=&quot;úloha 1&quot; /&gt;&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Využi pritom &lt;code class=&quot;highlighter-rouge&quot;&gt;funkcie&lt;/code&gt; tam, kde si myslíš, že ti to uľachčí prácu&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Povinné úlohy</summary></entry><entry><title type="html">Funkcie</title><link href="https://michalpuskel.github.io//ulohy/2019/10/02/funkcie.html" rel="alternate" type="text/html" title="Funkcie" /><published>2019-10-02T10:50:00+02:00</published><updated>2019-10-02T10:50:00+02:00</updated><id>https://michalpuskel.github.io//ulohy/2019/10/02/funkcie</id><content type="html" xml:base="https://michalpuskel.github.io//ulohy/2019/10/02/funkcie.html">&lt;h3 id=&quot;povinné-úlohy&quot;&gt;Povinné úlohy&lt;/h3&gt;
 
 &lt;ol&gt;
   &lt;li&gt;
