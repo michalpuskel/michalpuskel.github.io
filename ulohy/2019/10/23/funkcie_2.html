@@ -9,15 +9,15 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Povinné úlohy" />
 <meta property="og:description" content="Povinné úlohy" />
-<link rel="canonical" href="https://michalpuskel.github.io//ulohy/2019/10/23/funkcie_2.html" />
-<meta property="og:url" content="https://michalpuskel.github.io//ulohy/2019/10/23/funkcie_2.html" />
+<link rel="canonical" href="http://localhost:4000/ulohy/2019/10/23/funkcie_2.html" />
+<meta property="og:url" content="http://localhost:4000/ulohy/2019/10/23/funkcie_2.html" />
 <meta property="og:site_name" content="Programovanie v pythone" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2019-10-23T10:50:00+02:00" />
 <script type="application/ld+json">
-{"dateModified":"2019-10-23T10:50:00+02:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://michalpuskel.github.io//ulohy/2019/10/23/funkcie_2.html"},"url":"https://michalpuskel.github.io//ulohy/2019/10/23/funkcie_2.html","description":"Povinné úlohy","headline":"Funkcie 2","datePublished":"2019-10-23T10:50:00+02:00","@type":"BlogPosting","@context":"https://schema.org"}</script>
+{"url":"http://localhost:4000/ulohy/2019/10/23/funkcie_2.html","headline":"Funkcie 2","dateModified":"2019-10-23T10:50:00+02:00","datePublished":"2019-10-23T10:50:00+02:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/ulohy/2019/10/23/funkcie_2.html"},"description":"Povinné úlohy","@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
-<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://michalpuskel.github.io//feed.xml" title="Programovanie v pythone" /></head>
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Programovanie v pythone" /></head>
 <body><header class="site-header" role="banner">
 
   <div class="wrapper"><a class="site-title" rel="author" href="/">Programovanie v pythone</a><nav class="site-nav">
@@ -50,7 +50,7 @@
 <ol>
   <li>
     <p>Nakresli obrázok <em>štvorce</em>:
-<img src="https://michalpuskel.github.io//assets/images/funkcie2/stvorce10.png" alt="úloha 1" /></p>
+<img src="http://localhost:4000/assets/images/funkcie2/stvorce10.png" alt="úloha 1" /></p>
 
     <ul>
       <li>Rozmery plochy si ulož do premenných <code class="highlighter-rouge">X_MAX</code>, <code class="highlighter-rouge">Y_MAX</code>, budeš ich potrebovať pri výpočtoch:</li>
@@ -105,7 +105,7 @@ tak aby nevyleteli za okraje
       </li>
       <li>
         <p>funkčnosť nevylietavania za okraj si over napr. tak, že nakreslíš 100 sád štvorcov:
-<img src="https://michalpuskel.github.io//assets/images/funkcie2/stvorce100.png" alt="úloha 1" /></p>
+<img src="http://localhost:4000/assets/images/funkcie2/stvorce100.png" alt="úloha 1" /></p>
       </li>
     </ul>
   </li>
@@ -113,16 +113,82 @@ tak aby nevyleteli za okraje
 
 <h3 id="dobrovoľné-úlohy">Dobrovoľné úlohy</h3>
 
-<p>TBA</p>
+<ol>
+  <li>
+    <p>Nakresli obrázok <em>krabice</em>:
+<img src="http://localhost:4000/assets/images/funkcie2/krabice.png" alt="úloha 2" /></p>
 
-<p>TODO ovocny sad</p>
+    <ul>
+      <li>Využi pritom <code class="highlighter-rouge">funkcie</code> tam, kde si myslíš, že ti to uľachčí prácu</li>
+    </ul>
+  </li>
+  <li>
+    <p>V programe sú nejaké <em>chyby</em>:</p>
+
+    <ul>
+      <li>Oprav chybný program:</li>
+    </ul>
+
+    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">tkinter</span>
+<span class="kn">import</span> <span class="nn">random</span>
+
+<span class="n">X_MAX</span><span class="p">,</span> <span class="n">Y_MAX</span> <span class="o">=</span> <span class="mi">800</span><span class="p">,</span> <span class="mi">600</span>
+
+<span class="n">canvas</span> <span class="o">=</span> <span class="n">tkinter</span><span class="o">.</span><span class="n">Canvas</span><span class="p">(</span><span class="n">width</span><span class="o">=</span><span class="n">X_MAX</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="n">Y_MAX</span><span class="p">)</span>
+<span class="n">canvas</span><span class="o">.</span><span class="n">pack</span><span class="p">()</span>
+
+<span class="k">def</span> <span class="nf">dom</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">velkost</span><span class="o">=</span><span class="mi">150</span><span class="p">):</span>
+    <span class="n">canvas</span><span class="o">.</span><span class="n">create_rectangle</span><span class="p">(</span><span class="n">x</span> <span class="o">-</span> <span class="n">velkost</span><span class="o">/</span><span class="mi">2</span><span class="p">,</span> <span class="n">y</span> <span class="o">-</span> <span class="n">velkost</span><span class="o">/</span><span class="mi">2</span><span class="p">,</span>
+                            <span class="n">x</span> <span class="o">+</span> <span class="n">velkost</span><span class="o">/</span><span class="mi">2</span><span class="p">,</span> <span class="n">y</span> <span class="o">+</span> <span class="n">velkost</span><span class="o">/</span><span class="mi">2</span><span class="p">,</span>
+                            <span class="n">fill</span><span class="o">=</span><span class="s">'NavajoWhite2'</span><span class="p">)</span>
+    <span class="n">canvas</span><span class="o">.</span><span class="n">create_polygon</span><span class="p">(</span><span class="n">x</span> <span class="o">-</span> <span class="n">velkost</span><span class="o">/</span><span class="mi">2</span><span class="p">,</span> <span class="n">y</span> <span class="o">-</span> <span class="n">velkost</span><span class="o">/</span><span class="mi">2</span><span class="p">,</span>
+                          <span class="n">x</span> <span class="o">+</span> <span class="n">velkost</span><span class="o">/</span><span class="mi">2</span><span class="p">,</span> <span class="n">y</span> <span class="o">-</span> <span class="n">velkost</span><span class="o">/</span><span class="mi">2</span><span class="p">,</span>
+                          <span class="n">x</span><span class="p">,</span> <span class="n">y</span> <span class="o">-</span> <span class="n">velkost</span><span class="p">,</span> <span class="n">fill</span><span class="o">=</span><span class="s">'OrangeRed2'</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">oblaky</span><span class="p">():</span>
+    <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">):</span>
+        <span class="n">x</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">randrange</span><span class="p">(</span><span class="n">X_MAX</span><span class="p">),</span> <span class="n">random</span><span class="o">.</span><span class="n">randrange</span><span class="p">(</span><span class="n">Y_MAX</span><span class="o">/</span><span class="mi">2</span><span class="p">)</span>
+        <span class="n">r</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">20</span><span class="p">,</span> <span class="mi">40</span><span class="p">)</span>
+        <span class="n">canvas</span><span class="o">.</span><span class="n">create_oval</span><span class="p">(</span><span class="n">x</span><span class="o">-</span><span class="n">r</span><span class="p">,</span> <span class="n">y</span><span class="o">-</span><span class="n">r</span><span class="p">,</span> <span class="n">x</span><span class="o">+</span><span class="n">r</span><span class="p">,</span> <span class="n">y</span><span class="o">+</span><span class="n">r</span><span class="p">,</span> <span class="n">fill</span><span class="o">=</span><span class="s">'light sky blue'</span><span class="p">)</span>
+
+<span class="n">oblaky</span>
+<span class="n">dom</span>
+
+<span class="n">tkinter</span><span class="o">.</span><span class="n">mainloop</span><span class="p">()</span>
+</code></pre></div>    </div>
+
+    <ul>
+      <li>tak aby sa nakreslil podobný obrázok:
+<img src="http://localhost:4000/assets/images/funkcie2/krajinka.png" alt="úloha 3" /></li>
+    </ul>
+  </li>
+  <li>
+    <p>Nakresli obrázok <em>ovocný sad</em>:
+<img src="http://localhost:4000/assets/images/funkcie2/ovocie.png" alt="úloha 4" /></p>
+
+    <ul>
+      <li>
+        <p>Využi pritom <code class="highlighter-rouge">funkcie</code> tam, kde si myslíš, že ti to uľachčí prácu</p>
+      </li>
+      <li>
+        <p>Stromy majú náhodnú veľkosť koruny, avšak strom s modrým ovocím má vždy rovnakú veľkosť</p>
+      </li>
+      <li>
+        <p>počet plodov je náhodný, ich pozícia na strome je tiež náhodná (ale musia byť vždy na zelenej korune stromu)</p>
+      </li>
+      <li>
+        <p>dĺžka kmeňa priamoúmerne závisí od veľkosti koruny</p>
+      </li>
+    </ul>
+  </li>
+</ol>
 
 <h3 id="domáca-úloha">Domáca úloha</h3>
 
 <ul>
   <li>
     <p>Nakresli obrázok <em>vlaky</em>:
-<img src="https://michalpuskel.github.io//assets/images/funkcie2/vlak.png" alt="úloha 1" /></p>
+<img src="http://localhost:4000/assets/images/funkcie2/vlak.png" alt="úloha 1" /></p>
 
     <ul>
       <li>Využi pritom <code class="highlighter-rouge">funkcie</code> tam, kde si myslíš, že ti to uľachčí prácu</li>
