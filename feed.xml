@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://michalpuskel.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://michalpuskel.github.io//" rel="alternate" type="text/html" /><updated>2019-10-22T23:47:13+02:00</updated><id>https://michalpuskel.github.io//feed.xml</id><title type="html">Programovanie v pythone</title><subtitle>Príprava hodín na  pedagogickú prax  Doplnkového Pedagogického Štúdia Informatiky  FMFI UK.</subtitle><entry><title type="html">Animácie</title><link href="https://michalpuskel.github.io//ulohy/2019/10/30/animacie.html" rel="alternate" type="text/html" title="Animácie" /><published>2019-10-30T09:50:00+01:00</published><updated>2019-10-30T09:50:00+01:00</updated><id>https://michalpuskel.github.io//ulohy/2019/10/30/animacie</id><content type="html" xml:base="https://michalpuskel.github.io//ulohy/2019/10/30/animacie.html">&lt;h3 id=&quot;povinné-úlohy&quot;&gt;Povinné úlohy&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://michalpuskel.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://michalpuskel.github.io//" rel="alternate" type="text/html" /><updated>2019-10-22T23:57:58+02:00</updated><id>https://michalpuskel.github.io//feed.xml</id><title type="html">Programovanie v pythone</title><subtitle>Príprava hodín na  pedagogickú prax  Doplnkového Pedagogického Štúdia Informatiky  FMFI UK.</subtitle><entry><title type="html">Animácie</title><link href="https://michalpuskel.github.io//ulohy/2019/10/30/animacie.html" rel="alternate" type="text/html" title="Animácie" /><published>2019-10-30T09:50:00+01:00</published><updated>2019-10-30T09:50:00+01:00</updated><id>https://michalpuskel.github.io//ulohy/2019/10/30/animacie</id><content type="html" xml:base="https://michalpuskel.github.io//ulohy/2019/10/30/animacie.html">&lt;h3 id=&quot;povinné-úlohy&quot;&gt;Povinné úlohy&lt;/h3&gt;
 
 &lt;ol&gt;
   &lt;li&gt;
@@ -195,10 +195,10 @@ tak aby nevyleteli za okraje
         &lt;p&gt;Stromy majú náhodnú veľkosť koruny, avšak strom s modrým ovocím má vždy rovnakú veľkosť&lt;/p&gt;
       &lt;/li&gt;
       &lt;li&gt;
-        &lt;p&gt;počet plodov je náhodný, ich pozícia na strome je tiež náhodná (ale musia byť vždy na zelenej korune stromu)&lt;/p&gt;
+        &lt;p&gt;Počet plodov je náhodný, ich pozícia na strome je tiež náhodná (ale musia byť vždy na zelenej korune stromu)&lt;/p&gt;
       &lt;/li&gt;
       &lt;li&gt;
-        &lt;p&gt;dĺžka kmeňa priamoúmerne závisí od veľkosti koruny&lt;/p&gt;
+        &lt;p&gt;Dĺžka kmeňa priamoúmerne závisí od veľkosti koruny&lt;/p&gt;
       &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
