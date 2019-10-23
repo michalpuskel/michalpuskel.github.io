@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://michalpuskel.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://michalpuskel.github.io//" rel="alternate" type="text/html" /><updated>2019-10-22T23:57:58+02:00</updated><id>https://michalpuskel.github.io//feed.xml</id><title type="html">Programovanie v pythone</title><subtitle>Príprava hodín na  pedagogickú prax  Doplnkového Pedagogického Štúdia Informatiky  FMFI UK.</subtitle><entry><title type="html">Animácie</title><link href="https://michalpuskel.github.io//ulohy/2019/10/30/animacie.html" rel="alternate" type="text/html" title="Animácie" /><published>2019-10-30T09:50:00+01:00</published><updated>2019-10-30T09:50:00+01:00</updated><id>https://michalpuskel.github.io//ulohy/2019/10/30/animacie</id><content type="html" xml:base="https://michalpuskel.github.io//ulohy/2019/10/30/animacie.html">&lt;h3 id=&quot;povinné-úlohy&quot;&gt;Povinné úlohy&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://michalpuskel.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://michalpuskel.github.io//" rel="alternate" type="text/html" /><updated>2019-10-23T16:38:55+02:00</updated><id>https://michalpuskel.github.io//feed.xml</id><title type="html">Programovanie v pythone</title><subtitle>Príprava hodín na  pedagogickú prax  Doplnkového Pedagogického Štúdia Informatiky  FMFI UK.</subtitle><entry><title type="html">Animácie</title><link href="https://michalpuskel.github.io//ulohy/2019/10/30/animacie.html" rel="alternate" type="text/html" title="Animácie" /><published>2019-10-30T09:50:00+01:00</published><updated>2019-10-30T09:50:00+01:00</updated><id>https://michalpuskel.github.io//ulohy/2019/10/30/animacie</id><content type="html" xml:base="https://michalpuskel.github.io//ulohy/2019/10/30/animacie.html">&lt;h3 id=&quot;povinné-úlohy&quot;&gt;Povinné úlohy&lt;/h3&gt;
 
 &lt;ol&gt;
   &lt;li&gt;
@@ -61,12 +61,19 @@
 &lt;img src=&quot;https://michalpuskel.github.io//assets/videos/animacie/dazd.gif&quot; alt=&quot;domáca úloha&quot; /&gt;&lt;/p&gt;
 
     &lt;ul&gt;
-      &lt;li&gt;(bonusová úloha): iba sa zamysli, neprogramuj - dokážeš vyrobiť poriadny dážď / sneh
+      &lt;li&gt;(Bonusová úloha): iba sa zamysli, neprogramuj - dokážeš vyrobiť poriadny dážď / sneh
 napr. 1000 kvapiek / vločiek sa niekde v ploche náhodne narodí
 a potom bude padať gravitáciou dole + kvôli vetru do strany?&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Povinné úlohy</summary></entry><entry><title type="html">Funkcie 2</title><link href="https://michalpuskel.github.io//ulohy/2019/10/23/funkcie_2.html" rel="alternate" type="text/html" title="Funkcie 2" /><published>2019-10-23T10:50:00+02:00</published><updated>2019-10-23T10:50:00+02:00</updated><id>https://michalpuskel.github.io//ulohy/2019/10/23/funkcie_2</id><content type="html" xml:base="https://michalpuskel.github.io//ulohy/2019/10/23/funkcie_2.html">&lt;h3 id=&quot;povinné-úlohy&quot;&gt;Povinné úlohy&lt;/h3&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Povinné úlohy</summary></entry><entry><title type="html">Funkcie 2</title><link href="https://michalpuskel.github.io//ulohy/2019/10/23/funkcie_2.html" rel="alternate" type="text/html" title="Funkcie 2" /><published>2019-10-23T10:50:00+02:00</published><updated>2019-10-23T10:50:00+02:00</updated><id>https://michalpuskel.github.io//ulohy/2019/10/23/funkcie_2</id><content type="html" xml:base="https://michalpuskel.github.io//ulohy/2019/10/23/funkcie_2.html">&lt;p class=&quot;alert&quot;&gt;Deadline oznamy:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li class=&quot;alert&quot;&gt;odovzdávanie úloh na feedback &lt;code class=&quot;highlighter-rouge&quot;&gt;utorok 5. 11. 2019 23:59&lt;/code&gt;&lt;/li&gt;
+  &lt;li class=&quot;alert&quot;&gt;finálne odovzdávanie úloh na hodnotenie &lt;code class=&quot;highlighter-rouge&quot;&gt;TBA&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;povinné-úlohy&quot;&gt;Povinné úlohy&lt;/h3&gt;
 
 &lt;ol&gt;
   &lt;li&gt;
@@ -215,7 +222,21 @@ tak aby nevyleteli za okraje
       &lt;li&gt;Využi pritom &lt;code class=&quot;highlighter-rouge&quot;&gt;funkcie&lt;/code&gt; tam, kde si myslíš, že ti to uľachčí prácu&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Povinné úlohy</summary></entry><entry><title type="html">Funkcie</title><link href="https://michalpuskel.github.io//ulohy/2019/10/02/funkcie.html" rel="alternate" type="text/html" title="Funkcie" /><published>2019-10-02T10:50:00+02:00</published><updated>2019-10-02T10:50:00+02:00</updated><id>https://michalpuskel.github.io//ulohy/2019/10/02/funkcie</id><content type="html" xml:base="https://michalpuskel.github.io//ulohy/2019/10/02/funkcie.html">&lt;h3 id=&quot;povinné-úlohy&quot;&gt;Povinné úlohy&lt;/h3&gt;
+&lt;/ul&gt;
+
+&lt;p class=&quot;alert&quot;&gt;Deadline oznamy:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li class=&quot;alert&quot;&gt;odovzdávanie úloh na feedback &lt;code class=&quot;highlighter-rouge&quot;&gt;utorok 5. 11. 2019 23:59&lt;/code&gt;&lt;/li&gt;
+  &lt;li class=&quot;alert&quot;&gt;finálne odovzdávanie úloh na hodnotenie &lt;code class=&quot;highlighter-rouge&quot;&gt;TBA&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Deadline oznamy:</summary></entry><entry><title type="html">Funkcie</title><link href="https://michalpuskel.github.io//ulohy/2019/10/02/funkcie.html" rel="alternate" type="text/html" title="Funkcie" /><published>2019-10-02T10:50:00+02:00</published><updated>2019-10-02T10:50:00+02:00</updated><id>https://michalpuskel.github.io//ulohy/2019/10/02/funkcie</id><content type="html" xml:base="https://michalpuskel.github.io//ulohy/2019/10/02/funkcie.html">&lt;p class=&quot;alert&quot;&gt;Deadline oznamy:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li class=&quot;alert&quot;&gt;odovzdávanie úloh na feedback &lt;code class=&quot;highlighter-rouge&quot;&gt;piatok 25. 10. 2019 23:59&lt;/code&gt;&lt;/li&gt;
+  &lt;li class=&quot;alert&quot;&gt;finálne odovzdávanie úloh na hodnotenie &lt;code class=&quot;highlighter-rouge&quot;&gt;utorok 29. 10. 2019 23:59&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;povinné-úlohy&quot;&gt;Povinné úlohy&lt;/h3&gt;
 
 &lt;ol&gt;
   &lt;li&gt;
@@ -407,4 +428,11 @@ V lese sa nachádza:&lt;/p&gt;
       &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Povinné úlohy</summary></entry></feed>
+&lt;/ul&gt;
+
+&lt;p class=&quot;alert&quot;&gt;Deadline oznamy:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li class=&quot;alert&quot;&gt;odovzdávanie úloh na feedback &lt;code class=&quot;highlighter-rouge&quot;&gt;piatok 25. 10. 2019 23:59&lt;/code&gt;&lt;/li&gt;
+  &lt;li class=&quot;alert&quot;&gt;finálne odovzdávanie úloh na hodnotenie &lt;code class=&quot;highlighter-rouge&quot;&gt;utorok 29. 10. 2019 23:59&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Deadline oznamy:</summary></entry></feed>

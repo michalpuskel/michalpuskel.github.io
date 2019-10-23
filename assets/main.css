@@ -292,6 +292,8 @@ h3 { margin-top: 40px; margin-bottom: 30px; }
 
 li > h3 { margin-top: 0; margin-bottom: 15px; }
 
+.alert { color: #cc0000; font-size: 22px; }
+
 .highlight .hll { background-color: #ffffcc; }
 
 .highlight .c { color: #808080; }
