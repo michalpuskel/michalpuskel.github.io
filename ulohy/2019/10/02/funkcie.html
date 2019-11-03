@@ -253,6 +253,140 @@ V lese sa nachádza:</p>
   <li class="alert">finálne odovzdávanie úloh na hodnotenie <code class="highlighter-rouge">sobota 2. 11. 2019 23:59</code></li>
 </ul>
 
+<h3 id="príklad-riešenia">Príklad riešenia</h3>
+
+<ul>
+  <li>poznámka
+    <ul>
+      <li>nasledujúce riadky kódu predstavujú jedno z mnoho veľa možných riešení</li>
+      <li>slúží vám na porovnanie / inšpiráciu</li>
+      <li>nemusí byť dokonalé a môžu v ňom byť chyby, ak nejaké nájdete, prípadne tak ako ste vy dostali feedback odo mňa a teraz naopak, niečo sa vám nepáči alebo sa chcete opýtať, prečo som tak, či onak urobil, neváhajte o tom so mnou diskutovať na hodine! :)</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="mesiac-a-more">mesiac a more</h4>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">tkinter</span>
+<span class="kn">import</span> <span class="nn">random</span>
+
+<span class="n">X_MAX</span><span class="p">,</span> <span class="n">Y_MAX</span> <span class="o">=</span> <span class="mi">800</span><span class="p">,</span> <span class="mi">600</span>
+
+<span class="n">canvas</span> <span class="o">=</span> <span class="n">tkinter</span><span class="o">.</span><span class="n">Canvas</span><span class="p">(</span><span class="n">width</span><span class="o">=</span><span class="n">X_MAX</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="n">Y_MAX</span><span class="p">)</span>
+<span class="n">canvas</span><span class="o">.</span><span class="n">pack</span><span class="p">()</span>
+
+
+<span class="k">def</span> <span class="nf">mesiac</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">r</span><span class="o">=</span><span class="mi">50</span><span class="p">,</span> <span class="n">farba</span><span class="o">=</span><span class="s">'yellow'</span><span class="p">,</span> <span class="n">pozadie</span><span class="o">=</span><span class="s">'white'</span><span class="p">):</span>
+    <span class="n">canvas</span><span class="o">.</span><span class="n">create_oval</span><span class="p">(</span><span class="n">x</span> <span class="o">-</span> <span class="n">r</span><span class="p">,</span> <span class="n">y</span> <span class="o">-</span> <span class="n">r</span><span class="p">,</span> <span class="n">x</span> <span class="o">+</span> <span class="n">r</span><span class="p">,</span> <span class="n">y</span> <span class="o">+</span> <span class="n">r</span><span class="p">,</span> <span class="n">fill</span><span class="o">=</span><span class="n">farba</span><span class="p">,</span> <span class="n">width</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+    <span class="n">canvas</span><span class="o">.</span><span class="n">create_oval</span><span class="p">(</span><span class="n">x</span> <span class="o">-</span> <span class="n">r</span> <span class="o">+</span> <span class="mi">2</span><span class="o">*</span><span class="n">r</span><span class="o">/</span><span class="mi">3</span><span class="p">,</span>
+                       <span class="n">y</span> <span class="o">-</span> <span class="n">r</span><span class="p">,</span>
+                       <span class="n">x</span> <span class="o">+</span> <span class="n">r</span> <span class="o">+</span> <span class="mi">2</span><span class="o">*</span><span class="n">r</span><span class="o">/</span><span class="mi">3</span><span class="p">,</span>
+                       <span class="n">y</span> <span class="o">+</span> <span class="n">r</span><span class="p">,</span> <span class="n">fill</span><span class="o">=</span><span class="n">pozadie</span><span class="p">,</span> <span class="n">width</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+
+
+<span class="k">def</span> <span class="nf">mesiac_obrateny</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">r</span><span class="o">=</span><span class="mi">50</span><span class="p">,</span> <span class="n">farba</span><span class="o">=</span><span class="s">'yellow'</span><span class="p">,</span> <span class="n">pozadie</span><span class="o">=</span><span class="s">'white'</span><span class="p">):</span>
+    <span class="n">canvas</span><span class="o">.</span><span class="n">create_oval</span><span class="p">(</span><span class="n">x</span> <span class="o">-</span> <span class="n">r</span><span class="p">,</span> <span class="n">y</span> <span class="o">-</span> <span class="n">r</span><span class="p">,</span> <span class="n">x</span> <span class="o">+</span> <span class="n">r</span><span class="p">,</span> <span class="n">y</span> <span class="o">+</span> <span class="n">r</span><span class="p">,</span> <span class="n">fill</span><span class="o">=</span><span class="n">farba</span><span class="p">,</span> <span class="n">width</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+    <span class="n">canvas</span><span class="o">.</span><span class="n">create_oval</span><span class="p">(</span><span class="n">x</span> <span class="o">-</span> <span class="n">r</span> <span class="o">-</span> <span class="mi">2</span><span class="o">*</span><span class="n">r</span><span class="o">/</span><span class="mi">3</span><span class="p">,</span>
+                       <span class="n">y</span> <span class="o">-</span> <span class="n">r</span><span class="p">,</span>
+                       <span class="n">x</span> <span class="o">+</span> <span class="n">r</span> <span class="o">-</span> <span class="mi">2</span><span class="o">*</span><span class="n">r</span><span class="o">/</span><span class="mi">3</span><span class="p">,</span>
+                       <span class="n">y</span> <span class="o">+</span> <span class="n">r</span><span class="p">,</span> <span class="n">fill</span><span class="o">=</span><span class="n">pozadie</span><span class="p">,</span> <span class="n">width</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+
+
+<span class="k">def</span> <span class="nf">logo</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">r</span><span class="o">=</span><span class="mi">50</span><span class="p">,</span> <span class="n">farba</span><span class="o">=</span><span class="s">'light sky blue'</span><span class="p">,</span> <span class="n">pozadie</span><span class="o">=</span><span class="s">'saddle brown'</span><span class="p">):</span>
+    <span class="n">mesiac</span><span class="p">(</span><span class="n">x</span> <span class="o">+</span> <span class="n">r</span> <span class="o">+</span> <span class="n">r</span><span class="o">/</span><span class="mi">10</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">r</span><span class="p">,</span> <span class="n">farba</span><span class="p">,</span> <span class="n">pozadie</span><span class="p">)</span>
+    <span class="n">mesiac_obrateny</span><span class="p">(</span><span class="n">x</span> <span class="o">-</span> <span class="n">r</span> <span class="o">-</span> <span class="n">r</span><span class="o">/</span><span class="mi">10</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">r</span><span class="p">,</span> <span class="n">farba</span><span class="p">,</span> <span class="n">pozadie</span><span class="p">)</span>
+
+
+<span class="k">def</span> <span class="nf">vlajka</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">farba</span><span class="o">=</span><span class="s">'darkgreen'</span><span class="p">):</span>
+    <span class="n">a</span><span class="p">,</span> <span class="n">b</span> <span class="o">=</span> <span class="mi">80</span><span class="p">,</span> <span class="mi">60</span>
+    <span class="n">canvas</span><span class="o">.</span><span class="n">create_rectangle</span><span class="p">(</span><span class="n">x</span> <span class="o">-</span> <span class="n">a</span><span class="p">,</span> <span class="n">y</span> <span class="o">-</span> <span class="n">b</span><span class="p">,</span> <span class="n">x</span> <span class="o">+</span> <span class="n">a</span><span class="p">,</span> <span class="n">y</span> <span class="o">+</span> <span class="n">b</span><span class="p">,</span> <span class="n">fill</span><span class="o">=</span><span class="n">farba</span><span class="p">)</span>
+
+    <span class="n">stoziar</span> <span class="o">=</span> <span class="mi">250</span>
+    <span class="n">canvas</span><span class="o">.</span><span class="n">create_line</span><span class="p">(</span><span class="n">x</span> <span class="o">-</span> <span class="n">a</span><span class="p">,</span> <span class="n">y</span> <span class="o">+</span> <span class="n">b</span><span class="p">,</span> <span class="n">x</span> <span class="o">-</span> <span class="n">a</span><span class="p">,</span> <span class="n">y</span> <span class="o">+</span> <span class="n">b</span> <span class="o">+</span> <span class="n">stoziar</span><span class="p">)</span>
+
+    <span class="n">ostrov_x</span><span class="p">,</span> <span class="n">ostrov_y</span> <span class="o">=</span> <span class="n">x</span> <span class="o">-</span> <span class="n">a</span><span class="p">,</span> <span class="n">y</span> <span class="o">+</span> <span class="n">b</span> <span class="o">+</span> <span class="n">stoziar</span>
+    <span class="n">ostrov_r</span> <span class="o">=</span> <span class="mi">150</span>
+    <span class="n">canvas</span><span class="o">.</span><span class="n">create_oval</span><span class="p">(</span><span class="n">ostrov_x</span> <span class="o">-</span> <span class="n">ostrov_r</span><span class="p">,</span> <span class="n">ostrov_y</span> <span class="o">-</span> <span class="n">ostrov_r</span><span class="p">,</span>
+                       <span class="n">ostrov_x</span> <span class="o">+</span> <span class="n">ostrov_r</span><span class="p">,</span> <span class="n">ostrov_y</span> <span class="o">+</span> <span class="n">ostrov_r</span><span class="p">,</span> <span class="n">fill</span><span class="o">=</span><span class="s">'brown'</span><span class="p">)</span>
+
+
+<span class="k">def</span> <span class="nf">lodka</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">velkost</span><span class="p">):</span>
+    <span class="n">a</span><span class="p">,</span> <span class="n">b</span> <span class="o">=</span> <span class="mi">50</span><span class="p">,</span> <span class="mi">15</span>
+    <span class="n">canvas</span><span class="o">.</span><span class="n">create_line</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span> <span class="o">-</span> <span class="n">a</span> <span class="o">*</span> <span class="mi">2</span> <span class="o">*</span> <span class="n">velkost</span><span class="p">,</span>
+                       <span class="n">width</span><span class="o">=</span><span class="mi">10</span> <span class="o">*</span> <span class="n">velkost</span><span class="p">,</span> <span class="n">fill</span><span class="o">=</span><span class="s">'brown4'</span><span class="p">)</span>
+    <span class="n">canvas</span><span class="o">.</span><span class="n">create_polygon</span><span class="p">(</span><span class="n">x</span> <span class="o">-</span> <span class="n">a</span> <span class="o">*</span> <span class="n">velkost</span><span class="p">,</span> <span class="n">y</span> <span class="o">-</span> <span class="n">b</span> <span class="o">*</span> <span class="n">velkost</span><span class="p">,</span>
+                          <span class="n">x</span> <span class="o">+</span> <span class="n">a</span> <span class="o">*</span> <span class="n">velkost</span><span class="p">,</span> <span class="n">y</span> <span class="o">-</span> <span class="n">b</span> <span class="o">*</span> <span class="n">velkost</span><span class="p">,</span>
+                          <span class="n">x</span> <span class="o">+</span> <span class="n">a</span><span class="o">/</span><span class="mi">2</span> <span class="o">*</span> <span class="n">velkost</span><span class="p">,</span> <span class="n">y</span> <span class="o">+</span> <span class="n">b</span> <span class="o">*</span> <span class="n">velkost</span><span class="p">,</span>
+                          <span class="n">x</span> <span class="o">-</span> <span class="n">a</span><span class="o">/</span><span class="mi">2</span> <span class="o">*</span> <span class="n">velkost</span><span class="p">,</span> <span class="n">y</span> <span class="o">+</span> <span class="n">b</span> <span class="o">*</span> <span class="n">velkost</span><span class="p">,</span>
+                          <span class="n">fill</span><span class="o">=</span><span class="s">'saddle brown'</span><span class="p">,</span> <span class="n">outline</span><span class="o">=</span><span class="s">'black'</span><span class="p">,</span> <span class="n">width</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+    <span class="n">canvas</span><span class="o">.</span><span class="n">create_polygon</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span> <span class="o">-</span> <span class="n">a</span> <span class="o">*</span> <span class="n">velkost</span> <span class="o">/</span> <span class="mi">2</span><span class="p">,</span>
+                          <span class="n">x</span> <span class="o">+</span> <span class="n">a</span> <span class="o">*</span> <span class="n">velkost</span> <span class="o">/</span> <span class="mi">2</span><span class="p">,</span> <span class="n">y</span> <span class="o">-</span> <span class="n">a</span> <span class="o">*</span> <span class="mi">3</span> <span class="o">*</span> <span class="n">velkost</span> <span class="o">/</span> <span class="mi">4</span><span class="p">,</span>
+                          <span class="n">x</span><span class="p">,</span> <span class="n">y</span> <span class="o">-</span> <span class="n">a</span> <span class="o">*</span> <span class="mi">2</span> <span class="o">*</span> <span class="n">velkost</span><span class="p">,</span> <span class="n">fill</span><span class="o">=</span><span class="s">'ivory2'</span><span class="p">,</span> <span class="n">outline</span><span class="o">=</span><span class="s">'black'</span><span class="p">,</span> <span class="n">width</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+    <span class="n">logo</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="mi">7</span> <span class="o">*</span> <span class="n">velkost</span><span class="p">)</span>
+
+
+<span class="c1"># vlajky
+</span><span class="n">vlajka</span><span class="p">(</span><span class="mi">200</span><span class="p">,</span> <span class="mi">100</span><span class="p">)</span>
+<span class="n">mesiac</span><span class="p">(</span><span class="mi">200</span><span class="p">,</span> <span class="mi">100</span><span class="p">,</span> <span class="mi">30</span><span class="p">,</span> <span class="s">'red'</span><span class="p">,</span> <span class="s">'darkgreen'</span><span class="p">)</span>
+
+<span class="n">vlajka</span><span class="p">(</span><span class="n">X_MAX</span> <span class="o">-</span> <span class="mi">100</span><span class="p">,</span> <span class="mi">100</span><span class="p">,</span> <span class="s">'red3'</span><span class="p">)</span>
+<span class="n">logo</span><span class="p">(</span><span class="n">X_MAX</span> <span class="o">-</span> <span class="mi">100</span><span class="p">,</span> <span class="mi">100</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="n">pozadie</span><span class="o">=</span><span class="s">'red3'</span><span class="p">)</span>
+
+<span class="c1"># more
+</span><span class="n">canvas</span><span class="o">.</span><span class="n">create_rectangle</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">Y_MAX</span> <span class="o">/</span> <span class="mi">2</span><span class="p">,</span> <span class="n">X_MAX</span><span class="o">+</span><span class="mi">2</span><span class="p">,</span> <span class="n">Y_MAX</span><span class="o">+</span><span class="mi">2</span><span class="p">,</span> <span class="n">fill</span><span class="o">=</span><span class="s">'navy'</span><span class="p">)</span>
+
+<span class="c1"># mesiac
+</span><span class="n">r</span> <span class="o">=</span> <span class="mi">40</span>
+<span class="n">p</span> <span class="o">=</span> <span class="mi">30</span>
+<span class="n">vyska</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="n">r</span> <span class="o">+</span> <span class="n">p</span><span class="p">,</span> <span class="n">Y_MAX</span><span class="o">/</span><span class="mi">2</span> <span class="o">-</span> <span class="n">r</span> <span class="o">-</span> <span class="n">p</span><span class="p">)</span>
+<span class="n">mesiac</span><span class="p">(</span><span class="mi">500</span><span class="p">,</span> <span class="n">Y_MAX</span><span class="o">/</span><span class="mi">2</span> <span class="o">-</span> <span class="n">vyska</span><span class="p">,</span> <span class="n">r</span><span class="p">)</span>
+<span class="n">mesiac</span><span class="p">(</span><span class="mi">500</span><span class="p">,</span> <span class="n">Y_MAX</span><span class="o">/</span><span class="mi">2</span> <span class="o">+</span> <span class="n">vyska</span><span class="p">,</span> <span class="n">r</span><span class="p">,</span> <span class="n">pozadie</span><span class="o">=</span><span class="s">'navy'</span><span class="p">)</span>
+
+<span class="c1"># lodky
+</span><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">):</span>
+    <span class="n">x</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="mi">100</span> <span class="o">+</span> <span class="n">i</span> <span class="o">*</span> <span class="mi">100</span><span class="p">,</span> <span class="n">Y_MAX</span> <span class="o">-</span> <span class="mi">100</span> <span class="o">*</span> <span class="n">i</span>
+    <span class="n">lodka</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="mi">3</span> <span class="o">-</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span>
+
+
+<span class="n">tkinter</span><span class="o">.</span><span class="n">mainloop</span><span class="p">()</span>
+
+</code></pre></div></div>
+
+<h4 id="les">les</h4>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">tkinter</span>
+<span class="kn">import</span> <span class="nn">random</span>
+
+<span class="n">X_MAX</span><span class="p">,</span> <span class="n">Y_MAX</span> <span class="o">=</span> <span class="mi">800</span><span class="p">,</span> <span class="mi">600</span>
+
+<span class="n">canvas</span> <span class="o">=</span> <span class="n">tkinter</span><span class="o">.</span><span class="n">Canvas</span><span class="p">(</span><span class="n">width</span><span class="o">=</span><span class="n">X_MAX</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="n">Y_MAX</span><span class="p">)</span>
+<span class="n">canvas</span><span class="o">.</span><span class="n">pack</span><span class="p">()</span>
+
+
+<span class="k">def</span> <span class="nf">strom</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">r</span><span class="o">=</span><span class="mi">50</span><span class="p">):</span>
+    <span class="n">canvas</span><span class="o">.</span><span class="n">create_line</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="o">+</span><span class="mi">150</span><span class="p">,</span> <span class="n">width</span><span class="o">=</span><span class="mi">20</span><span class="p">,</span> <span class="n">fill</span><span class="o">=</span><span class="s">'brown4'</span><span class="p">)</span>
+    <span class="n">canvas</span><span class="o">.</span><span class="n">create_oval</span><span class="p">(</span><span class="n">x</span><span class="o">-</span><span class="n">r</span><span class="p">,</span> <span class="n">y</span><span class="o">-</span><span class="n">r</span><span class="p">,</span> <span class="n">x</span><span class="o">+</span><span class="n">r</span><span class="p">,</span> <span class="n">y</span><span class="o">+</span><span class="n">r</span><span class="p">,</span> <span class="n">fill</span><span class="o">=</span><span class="s">'lawn green'</span><span class="p">)</span>
+
+
+<span class="k">def</span> <span class="nf">trava</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+    <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">10</span><span class="p">)):</span>
+        <span class="n">canvas</span><span class="o">.</span><span class="n">create_line</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span>
+                           <span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="n">x</span><span class="o">-</span><span class="mi">20</span><span class="p">,</span> <span class="n">x</span><span class="o">+</span><span class="mi">20</span><span class="p">),</span>
+                           <span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="n">y</span><span class="o">-</span><span class="mi">30</span><span class="p">,</span> <span class="n">y</span><span class="o">-</span><span class="mi">10</span><span class="p">),</span>
+                           <span class="n">width</span><span class="o">=</span><span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">),</span> <span class="n">fill</span><span class="o">=</span><span class="s">'green4'</span><span class="p">)</span>
+
+
+<span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">):</span>
+    <span class="n">strom</span><span class="p">(</span><span class="n">random</span><span class="o">.</span><span class="n">randrange</span><span class="p">(</span><span class="n">X_MAX</span><span class="p">),</span> <span class="n">random</span><span class="o">.</span><span class="n">randrange</span><span class="p">(</span>
+        <span class="n">Y_MAX</span><span class="p">),</span> <span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">30</span><span class="p">,</span> <span class="mi">70</span><span class="p">))</span>
+<span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">20</span><span class="p">):</span>
+    <span class="n">trava</span><span class="p">(</span><span class="n">random</span><span class="o">.</span><span class="n">randrange</span><span class="p">(</span><span class="n">X_MAX</span><span class="p">),</span> <span class="n">random</span><span class="o">.</span><span class="n">randrange</span><span class="p">(</span><span class="n">Y_MAX</span><span class="p">))</span>
+
+
+<span class="n">tkinter</span><span class="o">.</span><span class="n">mainloop</span><span class="p">()</span>
+
+</code></pre></div></div>
+
   </div><a class="u-url" href="/ulohy/2019/10/02/funkcie.html" hidden></a>
 </article>
 
